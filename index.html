@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool&Go - Climate-Resilient Storage</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-green-50 text-gray-900">
+<!-- Navigation -->
+<nav class="fixed top-0 w-full bg-white/90 backdrop-blur-md shadow-lg z-50">
+    <div class="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
+        <div class="flex items-center space-x-4">
+            <span class="text-xl font-bold text-green-600">Cool&Go</span>
+        </div>
+        <div class="hidden md:flex space-x-6 items-center">
+            <a href="#how-it-works" class="text-gray-700 hover:text-green-600 transition">How It Works</a>
+            <a href="#features" class="text-gray-700 hover:text-green-600 transition">Features</a>
+            <a href="#impact" class="text-gray-700 hover:text-green-600 transition">Impact</a>
+            <a href="#contact" class="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition">Contact</a>
+        </div>
+        <div class="md:hidden">
+            <button id="mobile-menu-toggle" class="text-gray-600">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div id="mobile-menu" class="fixed top-16 left-0 w-full bg-white shadow-md z-40 hidden">
+    <div class="flex flex-col p-4 space-y-4">
+        <a href="#how-it-works" class="text-gray-700 hover:text-green-600">How It Works</a>
+        <a href="#features" class="text-gray-700 hover:text-green-600">Features</a>
+        <a href="#impact" class="text-gray-700 hover:text-green-600">Impact</a>
+        <a href="#contact" class="bg-green-600 text-white px-4 py-2 rounded-full text-center">Contact</a>
+    </div>
+</div>
+
+<!-- Hero Section -->
+<header class="relative pt-24 pb-16 px-4">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div class="reveal-left">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-600">
+                Climate-Resilient Storage
+            </h1>
+            <p class="text-xl mb-8 text-gray-600">
+                Community-powered solar cold storage for small businesses
+            </p>
+            <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="https://coolandgo.netlify.app/" class="bg-green-600 text-white px-6 py-3 rounded-full text-center hover:bg-green-700 transition">
+                    Get Started
+                </a>
+                <a href="#how-it-works" class="border border-green-600 text-green-600 px-6 py-3 rounded-full text-center hover:bg-green-50 transition">
+                    Learn More
+                </a>
+            </div>
+        </div>
+        <div class="hidden md:block reveal-right">
+            <div class="bg-green-100 p-6 rounded-xl shadow-2xl">
+                <div class="grid grid-cols-3 gap-4">
+                    <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                        <i class="fas fa-solar-panel text-green-600 text-3xl mb-2"></i>
+                        <span class="text-sm text-gray-600">Solar</span>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                        <i class="fas fa-temperature-low text-blue-600 text-3xl mb-2"></i>
+                        <span class="text-sm text-gray-600">Smart Cool</span>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                        <i class="fas fa-users text-purple-600 text-3xl mb-2"></i>
+                        <span class="text-sm text-gray-600">Community</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- How It Works Section -->
+<section id="how-it-works" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-12">How It Works</h2>
+        <div class="grid md:grid-cols-4 gap-8">
+            <div class="relative group">
+                <div class="absolute -inset-0.5 bg-green-400 rounded-xl opacity-75 group-hover:opacity-100 transition duration-300 blur"></div>
+                <div class="relative bg-white p-8 rounded-xl shadow-lg transform transition-all duration-300 group-hover:-translate-y-2">
+                    <div class="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-user-plus text-green-600 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Business Enrollment</h3>
+                    <p class="text-gray-600">Join our shared cold storage network with flexible options.</p>
+                </div>
+            </div>
+            <div class="relative group">
+                <div class="absolute -inset-0.5 bg-blue-400 rounded-xl opacity-75 group-hover:opacity-100 transition duration-300 blur"></div>
+                <div class="relative bg-white p-8 rounded-xl shadow-lg transform transition-all duration-300 group-hover:-translate-y-2">
+                    <div class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-cubes text-blue-600 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Storage Allocation</h3>
+                    <p class="text-gray-600">Rent individual compartments tailored to your needs.</p>
+                </div>
+            </div>
+            <div class="relative group">
+                <div class="absolute -inset-0.5 bg-purple-400 rounded-xl opacity-75 group-hover:opacity-100 transition duration-300 blur"></div>
+                <div class="relative bg-white p-8 rounded-xl shadow-lg transform transition-all duration-300 group-hover:-translate-y-2">
+                    <div class="bg-purple-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-solar-panel text-purple-600 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">AI-Powered Cooling</h3>
+                    <p class="text-gray-600">Intelligent temperature management for optimal preservation.</p>
+                </div>
+            </div>
+            <div class="relative group">
+                <div class="absolute -inset-0.5 bg-red-400 rounded-xl opacity-75 group-hover:opacity-100 transition duration-300 blur"></div>
+                <div class="relative bg-white p-8 rounded-xl shadow-lg transform transition-all duration-300 group-hover:-translate-y-2">
+                    <div class="bg-red-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-check-circle text-red-600 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Access & Monitor</h3>
+                    <p class="text-gray-600">Digital access and real-time inventory tracking.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section id="features" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-green-50 p-6 rounded-xl hover:shadow-xl transition reveal-feature">
+                <i class="fas fa-solar-panel text-green-600 text-4xl mb-4"></i>
+                <h3 class="text-xl font-semibold mb-3">100% Renewable</h3>
+                <p class="text-gray-600">Solar-powered infrastructure reducing carbon footprint.</p>
+            </div>
+            <div class="bg-blue-50 p-6 rounded-xl hover:shadow-xl transition reveal-feature">
+                <i class="fas fa-brain text-blue-600 text-4xl mb-4"></i>
+                <h3 class="text-xl font-semibold mb-3">Smart Cooling</h3>
+                <p class="text-gray-600">AI-optimized temperature control for each product.</p>
+            </div>
+            <div class="bg-purple-50 p-6 rounded-xl hover:shadow-xl transition reveal-feature">
+                <i class="fas fa-users text-purple-600 text-4xl mb-4"></i>
+                <h3 class="text-xl font-semibold mb-3">Community Model</h3>
+                <p class="text-gray-600">Shared infrastructure, reduced individual costs.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Impact Section -->
+<section id="impact" class="py-16 bg-gradient-to-br from-gray-50 to-gray-100">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-gray-900 mb-16">Our Impact</h2>
+        <div class="grid md:grid-cols-3 gap-12">
+            <div class="bg-gradient-to-br from-green-500 to-green-700 text-white p-8 rounded-2xl shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-3xl">
+                <div class="flex items-center mb-6">
+                    <i class="fas fa-leaf text-white text-4xl mr-6"></i>
+                    <h3 class="text-xl font-semibold">Environmental</h3>
+                </div>
+                <p class="text-white opacity-80">Reducing food waste and carbon emissions through sustainable cooling.</p>
+            </div>
+            <div class="bg-gradient-to-br from-blue-500 to-blue-700 text-white p-8 rounded-2xl shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-3xl">
+                <div class="flex items-center mb-6">
+                    <i class="fas fa-chart-line text-white text-4xl mr-6"></i>
+                    <h3 class="text-xl font-semibold">Economic</h3>
+                </div>
+                <p class="text-white opacity-80">Empowering small businesses with affordable, scalable storage solutions.</p>
+            </div>
+            <div class="bg-gradient-to-br from-purple-500 to-purple-700 text-white p-8 rounded-2xl shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-3xl">
+                <div class="flex items-center mb-6">
+                    <i class="fas fa-users-cog text-white text-4xl mr-6"></i>
+                    <h3 class="text-xl font-semibold">Community</h3>
+                </div>
+                <p class="text-white opacity-80">Creating interconnected, resilient local business ecosystems.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-8">
+        <div>
+            <h4 class="text-xl font-semibold mb-4">Cool&Go</h4>
+            <p>Revolutionizing cold storage through community-powered, sustainable solutions.</p>
+        </div>
+        <div>
+            <h4 class="text-xl font-semibold mb-4">Quick Links</h4>
+            <ul class="space-y-2">
+                <li><a href="#how-it-works" class="hover:text-green-400">How It Works</a></li>
+                <li><a href="#features" class="hover:text-green-400">Features</a></li>
+                <li><a href="#impact" class="hover:text-green-400">Impact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 class="text-xl font-semibold mb-4">Contact</h4>
+            <p>Email: info@coolandgo.com</p>
+            <p>Phone: (555) 123-4567</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Mobile Menu Toggle
+    document.getElementById('mobile-menu-toggle').addEventListener('click', function() {
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenu.classList.toggle('hidden');
+    });
+
+    // ScrollReveal Animations
+    ScrollReveal().reveal('.reveal-left', { delay: 300, origin: 'left', distance: '50px' });
+    ScrollReveal().reveal('.reveal-right', { delay: 300, origin: 'right', distance: '50px' });
+    ScrollReveal().reveal('.reveal-feature', { delay: 400, interval: 200 });
+</script>
+</body>
+</html>
